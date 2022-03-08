@@ -716,7 +716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3830077567842778607, guid: 68ae1d7e4d91a0e448b89596e4c92084, type: 3}
       propertyPath: m_Name
-      value: books
+      value: booksScattered
       objectReference: {fileID: 0}
     - target: {fileID: 4136046999333944187, guid: 68ae1d7e4d91a0e448b89596e4c92084, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2183,6 +2183,39 @@ Transform:
   m_Father: {fileID: 984677178}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1198280471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 05b55320ce5c406498c2bb93a28da93a, type: 3}
+  m_PrefabInstance: {fileID: 2076268914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1198280472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198280471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8db096ad7599146b628fb7ed307494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &1198280473
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198280471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 5030920721664613819, guid: 05b55320ce5c406498c2bb93a28da93a, type: 3}
+  m_Animations:
+  - {fileID: 5030920721664613819, guid: 05b55320ce5c406498c2bb93a28da93a, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1223377255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,6 +2469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1492945142}
+  - component: {fileID: 1492945143}
   m_Layer: 0
   m_Name: tables
   m_TagString: Untagged
@@ -2461,6 +2495,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1492945143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492945141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1568863597
 GameObject:
   m_ObjectHideFlags: 0
