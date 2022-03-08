@@ -16,11 +16,10 @@ using UnityEngine;
 
 public class Inventory : ScriptableObject
 {
-    [SerializeField] int keycards = 0; //keycards the player has
-    public int GetKeyCards { get => keycards; } //gets keycards
-    public void UpdateKeyCards(int numKeyCards) { keycards += numKeyCards; } //Updates the keycards player has on hand
-
-    public int flashlight = 1;
+    public string ID; //ref item easily
+    public string displayName; 
+    public Sprite icon;
+    public GameObject prefab;
 
     // Start is called before the first frame update
     void Start()
