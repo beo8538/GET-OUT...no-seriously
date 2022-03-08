@@ -5,7 +5,7 @@
  * Last Edited by: NA
  * Last Edited:
  * 
- * Description: Player IS the camera
+ * Description: Player IS the camera. Like FPS!
 ****/
 
 using System.Collections;

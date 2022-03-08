@@ -160,7 +160,7 @@ public class GameManager : MonoBehaviour
     {
         //SET ALL GAME LEVEL VARIABLES FOR START OF GAME
 
-        gameLevelsCount = 1; //set the count for the game levels
+        gameLevelsCount = 2; //set the count for the game levels
         loadLevel = gameLevelsCount - 1; //the level from the array
         SceneManager.LoadScene(gameLevels[loadLevel]); //load first game level
 
